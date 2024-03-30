@@ -1,0 +1,69 @@
+<html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire d'Inscription</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          Formulaire d'Inscription
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="nom">Nom:</label>
+              <input type="text" class="form-control" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+              <label for="prenom">Prénom:</label>
+              <input type="text" class="form-control" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+              <label for="date_naissance">Date de Naissance:</label>
+              <input type="date" class="form-control" id="date_naissance" name="date_naissance" required>
+            </div>
+            <div class="form-group">
+              <label for="genre">Genre:</label>
+              <select class="form-control" id="genre" name="genre">
+                <option value="homme">Homme</option>
+                <option value="femme">Femme</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="mot_de_passe">Mot de Passe:</label>
+              <input type="password" class="form-control" id="mot_de_passe" name="mot_de_passe" required>
+            </div>
+            <button type="submit" class="btn btn-primary">S'inscrire</button>
+          </form>
+        </div>
+        <!-- <div class="card-footer">
+          <a href="#">Mot de passe oublié?</a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+```
+
